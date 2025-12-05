@@ -31,7 +31,3 @@ Reporte final donde se selecciona el mejor modelo y se valida su bondad utilizan
 ## 📊 Dataset
 
 Se han utilizado los **Amazon Product Data**, específicamente los subconjuntos "5-core" de automatización. [Amazon Reviews (Julian McAuley)](http://jmcauley.ucsd.edu/data/amazon/)
-
-
----
-*Este proyecto fue realizado como parte de la evaluación final de NLP.*
