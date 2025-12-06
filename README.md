@@ -1,10 +1,10 @@
-#Sentiment Analysis in Amazon Reviews
+# Sentiment Analysis in Amazon Reviews
 This repository contains the resolution for the final practice project of the Natural Language Processing (NLP) course. The main objective of the project is to develop a complete workflow for a binary sentiment classification problem.
 
-##📋 Project Description
+## 📋 Project Description
 The project is structured into four stages that cover the lifecycle of an NLP project: from downloading and exploring the data to evaluating predictive models. The main focus is the binary classification of reviews (positive vs. negative).
 
-##📂 Repository Structure
+## 📂 Repository Structure
 The solution is divided into 4 notebooks, corresponding to each exercise in the practice:
 
 ###1. Data Download and Exploratory Data Analysis (EDA)
