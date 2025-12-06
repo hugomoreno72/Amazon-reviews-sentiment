@@ -1,33 +1,29 @@
-# Práctica Final NLP - Análisis de Sentimiento en Reviews de Amazon
+Sentiment Analysis in Amazon Reviews
+This repository contains the resolution for the final practice project of the Natural Language Processing (NLP) course. The main objective of the project is to develop a complete workflow for a binary sentiment classification problem.
 
-Este repositorio contiene la resolución de la práctica final de la asignatura de Procesamiento del Lenguaje Natural (NLP). El objetivo principal del proyecto es desarrollar un flujo de trabajo completo para un problema de clasificación binaria de sentimiento.
+📋 Project Description
+The project is structured into four stages that cover the lifecycle of an NLP project: from downloading and exploring the data to evaluating predictive models. The main focus is the binary classification of reviews (positive vs. negative).
 
-## 📋 Descripción del Proyecto
+📂 Repository Structure
+The solution is divided into 4 notebooks, corresponding to each exercise in the practice:
 
-El proyecto se estructura en cuatro etapas que cubren el ciclo de vida de un proyecto de NLP: desde la descarga y exploración de datos hasta la evaluación de modelos predictivos. El enfoque principal es la clasificación binaria de reviews (positivas vs. negativas).
+1. Data Download and Exploratory Data Analysis (EDA)
+In this stage, the corpus is downloaded and its main characteristics are analyzed. Metrics and visualizations are included, such as:
 
-## 📂 Estructura del Repositorio
+Vocabulary cardinality.
 
-La solución se divide en 4 notebooks, correspondientes a cada ejercicio de la práctica:
+Analysis of the most frequent N-grams.
 
-### 1. Descarga y Análisis Exploratorio de Datos (EDA)
-En esta etapa se descarga el corpus y se analizan sus características principales. Se incluyen métricas y visualizaciones como:
-* Cardinalidad del vocabulario.
-* Análisis de los N-grams más frecuentes
-* Nubes de palabras (Word Clouds)
+Word Clouds.
 
-### 2. Preprocesado de Texto
-Se implementa una función en Python para la limpieza y normalización de las reviews, preparándolas para el entrenamiento. 
-Las tareas incluyen eliminación de *stopwords*, signos de puntuación y adecuación de formato.
+2. Text Preprocessing
+A Python function is implemented for cleaning and normalizing the reviews, preparing them for training. Tasks include the elimination of stopwords, punctuation marks, and format adaptation.
 
-### 3. Entrenamiento y Testeo
-Se aborda el problema como una clasificación binaria supervisada.
-Se entrenan y comparan modelos distintos.
-Se justifican los parámetros del vectorizador.
+3. Training and Testing
+The problem is addressed as a supervised binary classification. Different models are trained and compared. The vectorizer parameters are justified.
 
-### 4. Métricas y Conclusiones
-Reporte final donde se selecciona el mejor modelo y se valida su bondad utilizando métricas como *precision*, *recall* y *f1-score*. Se incluyen las conclusiones finales del estudio.
+4. Metrics and Conclusions
+Final report where the best model is selected, and its goodness is validated using metrics such as precision, recall, and f1-score. The final conclusions of the study are included.
 
-## 📊 Dataset
-
-Se han utilizado los **Amazon Product Data**, específicamente los subconjuntos "5-core" de automatización. [Amazon Reviews (Julian McAuley)](http://jmcauley.ucsd.edu/data/amazon/)
+📊 Dataset
+The Amazon Product Data was used, specifically the "5-core" automation subsets. Amazon Reviews (Julian McAuley)
